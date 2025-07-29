@@ -82,6 +82,14 @@
 				"mac": "Alt+Shift+R"
 			},
 			"description": "__MSG_commandToggleReader__"
+		},
+		"toggle_sidebar": {
+		  "suggested_key": {
+		    "default": "Alt+Shift+S",
+		    "mac": "Alt+Shift+S"
+		  },
+		  "description": "Toggle the sidebar"
 		}
+		
 	}
 }
