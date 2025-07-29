@@ -183,6 +183,11 @@ browser.commands.onCommand.addListener(async (command, tab) => {
 		await injectReaderScript(tab.id);
 		await browser.tabs.sendMessage(tab.id, { action: "toggleReaderMode" });
 	}
+	if (command === "toggle_sidebar") {
+		chrome.sidePanel.open({ tabId: tab.id });
+		sidePanelOpenWindows.add(tab.windowId);
+		await ensureContentScriptLoaded(tab.id);
+	}	
 });
 
 const debouncedUpdateContextMenu = debounce(async (tabId: number) => {
