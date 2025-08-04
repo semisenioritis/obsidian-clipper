@@ -121,6 +121,9 @@
 	"commandToggleReader": {
 		"message": "切换阅读视图"
 	},
+	"commandOpenSidePanel": {
+		"message": "打开侧边栏"
+	},
 	"confirmDeleteTemplate": {
 		"message": "确定要删除模板「$1」吗？"
 	},

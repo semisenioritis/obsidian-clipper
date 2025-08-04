@@ -121,6 +121,9 @@
 	"commandToggleReader": {
 		"message": "Alternar vista de lectura"
 	},
+	"commandOpenSidePanel": {
+		"message": "Abrir panel lateral"
+	},
 	"confirmDeleteTemplate": {
 		"message": "¿Estás seguro de que quieres eliminar la plantilla \"$1\"?"
 	},

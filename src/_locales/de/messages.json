@@ -121,6 +121,9 @@
 	"commandToggleReader": {
 		"message": "Leseansicht umschalten"
 	},
+	"commandOpenSidePanel": {
+		"message": "Seitenleiste öffnen"
+	},
 	"confirmDeleteTemplate": {
 		"message": "Möchtest Du die Vorlage \"$1\" wirklich löschen?"
 	},

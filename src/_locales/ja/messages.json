@@ -121,6 +121,9 @@
 	"commandToggleReader": {
 		"message": "閲覧ビューを切り替える"
 	},
+	"commandOpenSidePanel": {
+		"message": "サイドパネルを開く"
+	},
 	"confirmDeleteTemplate": {
 		"message": "テンプレート「$1」を削除してもよろしいですか？"
 	},

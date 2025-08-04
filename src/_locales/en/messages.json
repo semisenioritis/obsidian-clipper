@@ -121,6 +121,9 @@
 	"commandToggleReader": {
 		"message": "Toggle reading view"
 	},
+	"commandOpenSidePanel": {
+		"message": "Open side panel"
+	},
 	"confirmDeleteTemplate": {
 		"message": "Are you sure you want to delete the template \"$1\"?"
 	},
