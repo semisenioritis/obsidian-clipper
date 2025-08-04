@@ -183,13 +183,6 @@ browser.commands.onCommand.addListener(async (command, tab) => {
 		await injectReaderScript(tab.id);
 		await browser.tabs.sendMessage(tab.id, { action: "toggleReaderMode" });
 	}
-<<<<<<< HEAD
-	if (command === "toggle_sidebar") {
-		chrome.sidePanel.open({ tabId: tab.id });
-		sidePanelOpenWindows.add(tab.windowId);
-		await ensureContentScriptLoaded(tab.id);
-	}	
-=======
 	if (command === "open_side_panel" && tab && tab.id && tab.windowId) {
 		// Use callback to preserve user gesture for sidePanel.open
 		chrome.tabs.query({ active: true, currentWindow: true }, ([tab]) => {
@@ -204,7 +197,6 @@ browser.commands.onCommand.addListener(async (command, tab) => {
 			}
 		});
 	}
->>>>>>> 1ffdd3e (a working sidebar in chrome)
 });
 
 const debouncedUpdateContextMenu = debounce(async (tabId: number) => {

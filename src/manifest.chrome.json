@@ -83,17 +83,8 @@
 			},
 			"description": "__MSG_commandToggleReader__"
 		},
-<<<<<<< HEAD
-		"toggle_sidebar": {
-		  "suggested_key": {
-		    "default": "Alt+Shift+S",
-		    "mac": "Alt+Shift+S"
-		  },
-		  "description": "Toggle the sidebar"
-=======
 		"open_side_panel": {
 			"description": "__MSG_commandOpenSidePanel__"
->>>>>>> 1ffdd3e (a working sidebar in chrome)
 		}
 		
 	}
